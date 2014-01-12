@@ -1,0 +1,4 @@
+{
+	"last_test_run": "bundle exec rspec --no-color --format p  --format UnicornFormatter spec/controllers/cookbook_controller_spec.rb -l23",
+	"last_test_working_dir": "/Users/daytonn/Development/cooktabulous"
+}

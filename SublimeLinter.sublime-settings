@@ -1,0 +1,96 @@
+{
+	"user":
+	{
+		"debug": true,
+		"delay": 0.25,
+		"error_color": "D02000",
+		"gutter_theme": "Packages/User/SublimeLinter/tonycoco.gutter-theme",
+		"gutter_theme_excludes":
+		[
+		],
+		"lint_mode": "background",
+		"linters":
+		{
+			"jshint":
+			{
+				"@disable": false,
+				"args":
+				[
+					"--config",
+					"/Users/daytonn/.jshintrc"
+				],
+				"excludes":
+				[
+				]
+			},
+			"rubocop":
+			{
+				"@disable": false,
+				"args":
+				[
+				],
+				"excludes":
+				[
+				]
+			},
+			"ruby":
+			{
+				"@disable": false,
+				"args":
+				[
+				],
+				"excludes":
+				[
+				]
+			},
+			"scss":
+			{
+				"@disable": false,
+				"args":
+				[
+				],
+				"excludes":
+				[
+				]
+			}
+		},
+		"mark_style": "squiggly underline",
+		"no_column_highlights_line": false,
+		"paths":
+		{
+			"linux":
+			[
+			],
+			"osx":
+			[
+				"~/.rbenv/shims/ruby"
+			],
+			"windows":
+			[
+			]
+		},
+		"python_paths":
+		{
+			"linux":
+			[
+			],
+			"osx":
+			[
+			],
+			"windows":
+			[
+			]
+		},
+		"rc_search_limit": 3,
+		"show_errors_on_save": false,
+		"show_marks_in_minimap": true,
+		"syntax_map":
+		{
+			"php": "html",
+			"rspec": "ruby",
+			"ruby on rails": "ruby"
+		},
+		"warning_color": "DDB700",
+		"wrap_find": true
+	}
+}
