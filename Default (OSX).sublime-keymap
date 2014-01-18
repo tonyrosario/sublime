@@ -11,11 +11,6 @@
   },
   // Quick File Creation
   { "keys": ["super+n"], "command": "advanced_new_file_new"},
-  // Readline style file movement(top, bottom)
-  { "keys": ["ctrl+super+n"], "command": "move_to", "args": {"to": "eof"} },
-  { "keys": ["ctrl+super+p"], "command": "move_to", "args": {"to": "bof"} },
-  // Toggle retarded mode
-  { "keys": ["ctrl+alt+super+v"], "command": "toggle_vintage_package" },
   // Skip next selection cmd+d
   { "keys": ["shift+ctrl+super+d"], "command": "find_under_expand_skip" },
   // Upper/Lower case
@@ -146,9 +141,4 @@
                } ]
   }, // switch between code and test in split view
   { "keys": ["super+shift+c"], "command": "generate_file" }, // create new file
-  // Disable arrow keys
-  // { "keys": ["right"], "command": "null"},
-  // { "keys": ["left"], "command": "null"},
-  // { "keys": ["up"], "command": "null"},
-  // { "keys": ["down"], "command": "null"}
 ]
