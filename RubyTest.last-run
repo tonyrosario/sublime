@@ -1,4 +1,4 @@
 {
-	"last_test_run": "bundle exec rspec --no-color --format p  --format UnicornFormatter spec/controllers/recipes_controller_spec.rb -l160",
-	"last_test_working_dir": "/Users/daytonn/Development/cooktabulous"
+	"last_test_run": "bundle exec rspec --no-color --format p --format UnicornFormatter spec/features/login_spec.rb",
+	"last_test_working_dir": "/Users/daytonn/Development/asap2"
 }

@@ -8,20 +8,48 @@
 	"drag_text": false,
 	"enable_tab_scrolling": false,
 	"ensure_newline_at_eof_on_save": true,
+	"file_exclude_patterns":
+	[
+		"*.pyc",
+		"*.pyo",
+		"*.exe",
+		"*.dll",
+		"*.obj",
+		"*.o",
+		"*.a",
+		"*.lib",
+		"*.so",
+		"*.dylib",
+		"*.ncb",
+		"*.sdf",
+		"*.suo",
+		"*.pdb",
+		"*.idb",
+		".DS_Store",
+		"*.class",
+		"*.psd",
+		"*.db",
+		"*.log",
+		"*.sublime-workspace"
+	],
 	"folder_exclude_patterns":
 	[
-		"coverage",
-		".git"
+		".svn",
+		".git",
+		".hg",
+		"CVS",
+		"sprockets",
+		"sass"
 	],
 	"font_face": "Monaco",
-	"font_size": 18,
+	"font_size": 19,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"hot_exit": false,
 	"ignored_packages":
 	[
-		"JavaScript",
-		"Vintage"
+		"Vintage",
+		"JavaScript"
 	],
 	"indent_guide_options":
 	[
@@ -30,6 +58,7 @@
 	"open_files_in_new_window": false,
 	"overlay_scroll_bars": "disabled",
 	"remember_open_files": false,
+	"save_on_focus_lost": true,
 	"tab_size": 2,
 	"theme": "Neopolitan.sublime-theme",
 	"translate_tabs_to_spaces": true,
