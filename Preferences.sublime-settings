@@ -30,14 +30,15 @@
 		"*.so",
 		"*.sublime-workspace",
 		"*.suo",
-		".DS_Store"
+		".DS_Store",
+		".bowerrc"
 	],
 	"folder_exclude_patterns":
 	[
 		".git",
 		".hg",
 		".svn",
-		"coverage",
+		"bin",
 		"CVS",
 		"node_modules",
 		"sass",
