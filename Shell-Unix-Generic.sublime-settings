@@ -1,7 +1,9 @@
 {
 	"extensions":
 	[
+		".aliases",
 		".env",
-		".aliases"
+		".colors",
+		".bash_functions"
 	]
 }
