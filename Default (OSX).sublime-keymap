@@ -30,8 +30,6 @@
   { "keys": ["`"], "command": "insert_snippet", "args": {"name": "Packages/User/snippets/All-backticks.sublime-snippet"} },
   // Paramify
   { "keys": ["ctrl+shift+alt+super+p"], "command": "insert_snippet", "args": {"name": "Packages/User/snippets/ruby-paramify.sublime-snippet"} },
-  // jQuery wrap
-  { "keys": ["$"], "command": "insert_snippet", "args": {"name": "Packages/User/snippets/js-jquery-wrap.sublime-snippet"} },
   // Letify
   { "keys": ["ctrl+shift+l"], "command": "insert_snippet", "args": {"name": "Packages/User/snippets/ruby-let.sublime-snippet"} },
   // Unparamify
