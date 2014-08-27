@@ -1,7 +1,7 @@
 <snippet>
     <content><![CDATA[
-gulp.src(${1:['$2']})
-  .pipe(gulp.dest('$0'));
+gulp.src(${1:["$2"]})
+  .pipe(gulp.dest("${0:dist}"));
 ]]></content>
     <!-- Optional: Tab trigger to activate the snippet -->
     <tabTrigger>gs</tabTrigger>

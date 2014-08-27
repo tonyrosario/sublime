@@ -4,6 +4,10 @@
 		".aliases",
 		".env",
 		".colors",
-		".bash_functions"
+		".bash_functions",
+		".git_prompt",
+		"bats",
+		"pre-commit",
+		".holywater"
 	]
 }

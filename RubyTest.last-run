@@ -1,4 +1,4 @@
 {
-	"last_test_run": "bundle exec rspec --no-color --format p spec/controllers/application_controller_spec.rb",
-	"last_test_working_dir": "/Users/daytonn/Development/anavo-ops/anavo-server"
+	"last_test_run": "bundle exec rspec --no-color --format p spec/models/question_spec.rb",
+	"last_test_working_dir": "/Users/daytonn/Development/audatex-csi"
 }
