@@ -3,7 +3,7 @@
 	"bold_folder_labels": true,
 	"caret_style": "phase",
 	"close_windows_when_empty": true,
-	"color_scheme": "Packages/User/Neopolitan (SL).tmTheme",
+	"color_scheme": "Packages/User/Blackboard (SL).tmTheme",
 	"copy_with_empty_selection": false,
 	"drag_text": false,
 	"enable_tab_scrolling": false,
@@ -30,8 +30,7 @@
 		"*.so",
 		"*.sublime-workspace",
 		"*.suo",
-		".DS_Store",
-		".bowerrc"
+		".DS_Store"
 	],
 	"folder_exclude_patterns":
 	[
@@ -44,10 +43,11 @@
 		"sass",
 		"sprockets",
 		"documentation",
-		"tmp"
+		"tmp",
+		"_build"
 	],
 	"font_face": "Monaco",
-	"font_size": 19,
+	"font_size": 17,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"hot_exit": false,
@@ -65,8 +65,9 @@
 	"overlay_scroll_bars": "disabled",
 	"remember_open_files": false,
 	"save_on_focus_lost": true,
+	"show_panel_on_build": true,
 	"tab_size": 2,
-	"theme": "Neopolitan.sublime-theme",
+	"theme": "Blackboard.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
 	"word_wrap": false

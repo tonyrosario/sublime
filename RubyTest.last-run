@@ -1,4 +1,4 @@
 {
-	"last_test_run": "bundle exec rspec --no-color --format p spec/models/question_spec.rb",
-	"last_test_working_dir": "/Users/daytonn/Development/audatex-csi"
+	"last_test_run": "bundle exec rspec --no-color --format p  --format UnicornFormatter spec/controllers/restaurants_controller_spec.rb -l95",
+	"last_test_working_dir": "/Users/daytonn/Development/random-restaurant-adventure"
 }

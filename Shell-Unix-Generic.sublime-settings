@@ -2,12 +2,13 @@
 	"extensions":
 	[
 		".aliases",
-		".env",
-		".colors",
+		".baptize",
 		".bash_functions",
+		".colors",
+		".env",
 		".git_prompt",
+		".holywater",
 		"bats",
-		"pre-commit",
-		".holywater"
+		"pre-commit"
 	]
 }
