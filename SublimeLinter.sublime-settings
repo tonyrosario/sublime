@@ -7,6 +7,13 @@
         "gutter_theme_excludes": [],
         "lint_mode": "background",
         "linters": {
+            "clang": {
+                "@disable": false,
+                "args": [],
+                "excludes": [],
+                "extra_flags": "",
+                "include_dirs": []
+            },
             "jshint": {
                 "@disable": false,
                 "args": [
@@ -26,7 +33,7 @@
                 "excludes": []
             },
             "rubocop": {
-                "@disable": false,
+                "@disable": true,
                 "args": [],
                 "excludes": []
             },
@@ -53,7 +60,6 @@
             "linux": [],
             "osx": [
                 "/Users/daytonn/.rbenv/versions/2.1.1/bin/ruby"
-                // "/usr/local/bin"
             ],
             "windows": []
         },

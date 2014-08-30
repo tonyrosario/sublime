@@ -3,6 +3,8 @@
 	[
 		"RubyMotionBuilder",
 		"SFTP",
+		"SideBarEnhancements",
+		"SublimeCodeIntel",
 		"SublimeLinter",
 		"SublimeLinter-contrib-clang",
 		"SublimeREPL"
