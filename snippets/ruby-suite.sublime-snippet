@@ -1,11 +1,17 @@
 <snippet>
     <content><![CDATA[
-let(:$1) { create() }
+require "rails_helper"
+
+describe $1 do
+  it "$2" do
+    $0
+  end
+end
 ]]></content>
     <!-- Optional: Tab trigger to activate the snippet -->
-    <tabTrigger>let</tabTrigger>
+    <tabTrigger>suite</tabTrigger>
     <!-- Optional: Scope the tab trigger will be active in -->
     <scope>source.ruby</scope>
     <!-- Optional: Description to show in the menu -->
-    <description>Ruby let statement</description>
+    <description>Rspec suite</description>
 </snippet>

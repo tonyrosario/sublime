@@ -1,4 +1,65 @@
 [
+// Disable arrows
+  { "keys": ["up"], "command": "insert_snippet", "args": {"contents": ""} },
+  { "keys": ["down"], "command": "insert_snippet", "args": {"contents": ""} },
+  { "keys": ["right"], "command": "insert_snippet", "args": {"contents": ""} },
+  { "keys": ["left"], "command": "insert_snippet", "args": {"contents": ""} },
+
+  { "keys": ["super+up"], "command": "insert_snippet", "args": {"contents": ""} },
+  { "keys": ["super+down"], "command": "insert_snippet", "args": {"contents": ""} },
+  { "keys": ["super+right"], "command": "insert_snippet", "args": {"contents": ""} },
+  { "keys": ["super+left"], "command": "insert_snippet", "args": {"contents": ""} },
+
+  { "keys": ["shift+super+up"], "command": "insert_snippet", "args": {"contents": ""} },
+  { "keys": ["shift+super+down"], "command": "insert_snippet", "args": {"contents": ""} },
+  { "keys": ["shift+super+left"], "command": "insert_snippet", "args": {"contents": ""} },
+  { "keys": ["shift+super+right"], "command": "insert_snippet", "args": {"contents": ""} },
+
+  { "keys": ["alt+up"], "command": "insert_snippet", "args": {"contents": ""} },
+  { "keys": ["alt+down"], "command": "insert_snippet", "args": {"contents": ""} },
+  { "keys": ["alt+left"], "command": "insert_snippet", "args": {"contents": ""} },
+  { "keys": ["alt+right"], "command": "insert_snippet", "args": {"contents": ""} },
+
+  { "keys": ["shift+alt+up"], "command": "insert_snippet", "args": {"contents": ""} },
+  { "keys": ["shift+alt+down"], "command": "insert_snippet", "args": {"contents": ""} },
+  { "keys": ["shift+alt+left"], "command": "insert_snippet", "args": {"contents": ""} },
+  { "keys": ["shift+alt+right"], "command": "insert_snippet", "args": {"contents": ""} },
+
+  { "keys": ["ctrl+up"], "command": "insert_snippet", "args": {"contents": ""} },
+  { "keys": ["ctrl+down"], "command": "insert_snippet", "args": {"contents": ""} },
+  { "keys": ["ctrl+right"], "command": "insert_snippet", "args": {"contents": ""} },
+  { "keys": ["ctrl+left"], "command": "insert_snippet", "args": {"contents": ""} },
+
+  { "keys": ["ctrl+super+up"], "command": "insert_snippet", "args": {"contents": ""} },
+  { "keys": ["ctrl+super+down"], "command": "insert_snippet", "args": {"contents": ""} },
+
+  { "keys": ["ctrl+alt+up"], "command": "insert_snippet", "args": {"contents": ""} },
+  { "keys": ["ctrl+alt+down"], "command": "insert_snippet", "args": {"contents": ""} },
+  { "keys": ["ctrl+alt+left"], "command": "insert_snippet", "args": {"contents": ""} },
+  { "keys": ["ctrl+alt+right"], "command": "insert_snippet", "args": {"contents": ""} },
+
+  { "keys": ["shift+ctrl+up"], "command": "insert_snippet", "args": {"contents": ""} },
+  { "keys": ["shift+ctrl+down"], "command": "insert_snippet", "args": {"contents": ""} },
+  { "keys": ["shift+ctrl+left"], "command": "insert_snippet", "args": {"contents": ""} },
+  { "keys": ["shift+ctrl+right"], "command": "insert_snippet", "args": {"contents": ""} },
+
+// Enable arrow keys
+  { "keys": ["alt+right"], "command": "move", "args": { "by": "wordends", "forward": true } },
+  { "keys": ["alt+left"], "command": "move", "args": { "by": "words", "forward": false } },
+  { "keys": ["up"], "command": "move", "args": { "by": "lines", "forward": false } },
+  { "keys": ["down"], "command": "move", "args": { "by": "lines", "forward": true } },
+  { "keys": ["right"], "command": "move", "args": { "by": "characters", "forward": true } },
+  { "keys": ["left"], "command": "move", "args": { "by": "characters", "forward": false } },
+  { "keys": ["super+right"], "command": "move_to", "args": { "to": "eol" } },
+  { "keys": ["super+left"], "command": "move_to", "args": { "to": "bol" } },
+  { "keys": ["ctrl+super+up"], "command": "swap_line_up" },
+  { "keys": ["ctrl+super+down"], "command": "swap_line_down" },
+  { "keys": ["shift+tab"], "command": "unindent" },
+  { "keys": ["shift+ctrl+down"], "command": "select_lines", "args": { "by": "characters", "forward": true } },
+  { "keys": ["shift+ctrl+up"], "command": "select_lines", "args": { "by": "characters", "forward": false } },
+  { "keys": ["shift+super+right"],  "command": "move_to", "args": { "to": "eol", "extend": true } },
+  { "keys": ["shift+super+left"],  "command": "move_to", "args": { "to": "bol", "extend": true } },
+
 // Cursor Movement
   // ⌃F Forward by words
   { "keys": ["alt+f"], "command": "move", "args": { "by": "wordends", "forward": true } },
@@ -97,12 +158,6 @@
   // ⇧⌃⌘M Show Migrations List
   { "keys": ["shift+ctrl+super+m"], "command": "rails_migrations_list"},
 
-  // ⌘F Find and Replace
-  // { "keys": ["super+f"], "command": "show_panel", "args": {"panel": "replace"} },
-
-  // ⇧⌘F Find and Replace in Project
-  // { "keys": ["shiftsuper+f"], "command": "show_panel", "args": {"panel": "find_in_files"} },
-
   // ⌃⌘R Show file in sidebar
   { "keys": ["ctrl+super+r"], "command": "reveal_in_side_bar" },
 
@@ -120,13 +175,22 @@
   // ⌥⌘= Hash Rocket
   { "keys": ["alt+super+="], "command": "insert_snippet", "args": {"contents": "=>"} },
 
+  // ⌃0 Insert right parens
+  { "keys": ["ctrl+0"], "command": "insert_snippet", "args": {"contents": ")"} },
+
+  // ⌃9 Insert left parens
+  { "keys": ["ctrl+9"], "command": "insert_snippet", "args": {"contents": "("} },
+
+  // ⌃' Insert double quotes
+  { "keys": ["ctrl+'"], "command": "insert_snippet", "args": {"contents": "\""} },
+
   // ⌥⌘- Stabby Arrow
   { "keys": ["alt+super+-"], "command": "insert_snippet", "args": {"contents": "->"} },
 
   // ⇧⌥⌘_ To Underscore
   { "keys": ["shift+ctrl+-"], "command": "insert_snippet", "args": {"name": "Packages/User/snippets/sh-string-to-underline.sublime-snippet"} },
 
-  // ⌃⌥⌘= Convert Hashe Rockets
+  // ⌃⌥⌘= Convert Hash Rockets
   { "keys": ["ctrl+alt+super+="], "command": "insert_snippet", "args": {"name": "Packages/User/snippets/ruby-hash-convert.sublime-snippet"} },
 
   // ⇧⌃: String to Symbol
@@ -138,66 +202,88 @@
   // ⌥⌘CColor picker
   { "keys": ["alt+super+c"], "command": "color_pick" },
 
+  // Match Backtick Quotes
+  { "keys": ["`"], "command": "insert_snippet", "args": {"name": "Packages/User/snippets/All-backticks.sublime-snippet"} },
+
+  // ⌃; Add semicolon at end of line
+  { "keys": ["ctrl+;"],
+    "command": "run_multiple_commands",
+    "args": {
+      "commands": [
+        {"command": "move_to", "args": { "to": "eol" }},
+        {"command": "insert_snippet", "args": {"contents": ";"}}
+      ]
+    }
+  },
+
+  // ⇧⌃; Add semicolon at end of line, insert new line
+  { "keys": ["shift+ctrl+;"],
+    "command": "run_multiple_commands",
+    "args": {
+      "commands": [
+        {"command": "move_to", "args": { "to": "eol" }},
+        {"command": "insert_snippet", "args": {"contents": ";"}},
+        {"command": "run_macro_file", "args": {"file": "res://Packages/Default/Add Line.sublime-macro"}}
+      ]
+    }
+  },
+
+  // ⌃, Add comma at end of line
+  { "keys": ["ctrl+,"],
+    "command": "run_multiple_commands",
+    "args": {
+      "commands": [
+        {"command": "move_to", "args": { "to": "eol" }},
+        {"command": "insert_snippet", "args": {"contents": ","}}
+      ]
+    }
+  },
+
+  // ⇧⌃, Add comma at end of line, insert new line
+  { "keys": ["shift+ctrl+,"],
+    "command": "run_multiple_commands",
+    "args": {
+      "commands": [
+        {"command": "move_to", "args": { "to": "eol" }},
+        {"command": "insert_snippet", "args": {"contents": ","}},
+        {"command": "run_macro_file", "args": {"file": "res://Packages/Default/Add Line.sublime-macro"}}
+      ]
+    }
+  },
+
+  // ⌃space, Add space between the last character
+  { "keys": ["ctrl+space"],
+    "command": "run_multiple_commands",
+    "args": {
+
+      "commands": [
+        {"command": "move_to", "args": { "to": "eol" }},
+        {"command": "move", "args": {"by": "characters", "forward": false }},
+        {"command": "insert_snippet", "args": {"contents": " "}},
+      ]
+    }
+  },
+
 // ⌃⌘L Sublime linter
   { "keys": ["ctrl+super+l"], "command": "sublimelinter_show_errors", "args": {"action": "lint", "show_popup": true} },
 
-// Match Backtick Quotes
-  { "keys": ["`"], "command": "insert_snippet", "args": {"name": "Packages/User/snippets/All-backticks.sublime-snippet"} },
-
-// Disable arrows
-  { "keys": ["up"], "command": "insert_snippet", "args": {"contents": ""} },
-  { "keys": ["down"], "command": "insert_snippet", "args": {"contents": ""} },
-  { "keys": ["right"], "command": "insert_snippet", "args": {"contents": ""} },
-  { "keys": ["left"], "command": "insert_snippet", "args": {"contents": ""} },
-
-  { "keys": ["super+up"], "command": "insert_snippet", "args": {"contents": ""} },
-  { "keys": ["super+down"], "command": "insert_snippet", "args": {"contents": ""} },
-  { "keys": ["super+right"], "command": "insert_snippet", "args": {"contents": ""} },
-  { "keys": ["super+left"], "command": "insert_snippet", "args": {"contents": ""} },
-
-  { "keys": ["shift+super+up"], "command": "insert_snippet", "args": {"contents": ""} },
-  { "keys": ["shift+super+down"], "command": "insert_snippet", "args": {"contents": ""} },
-  { "keys": ["shift+super+left"], "command": "insert_snippet", "args": {"contents": ""} },
-  { "keys": ["shift+super+right"], "command": "insert_snippet", "args": {"contents": ""} },
-
-  { "keys": ["alt+up"], "command": "insert_snippet", "args": {"contents": ""} },
-  { "keys": ["alt+down"], "command": "insert_snippet", "args": {"contents": ""} },
-  { "keys": ["alt+left"], "command": "insert_snippet", "args": {"contents": ""} },
-  { "keys": ["alt+right"], "command": "insert_snippet", "args": {"contents": ""} },
-
-  { "keys": ["shift+alt+up"], "command": "insert_snippet", "args": {"contents": ""} },
-  { "keys": ["shift+alt+down"], "command": "insert_snippet", "args": {"contents": ""} },
-  { "keys": ["shift+alt+left"], "command": "insert_snippet", "args": {"contents": ""} },
-  { "keys": ["shift+alt+right"], "command": "insert_snippet", "args": {"contents": ""} },
-
-  { "keys": ["ctrl+up"], "command": "insert_snippet", "args": {"contents": ""} },
-  { "keys": ["ctrl+down"], "command": "insert_snippet", "args": {"contents": ""} },
-  { "keys": ["ctrl+right"], "command": "insert_snippet", "args": {"contents": ""} },
-  { "keys": ["ctrl+left"], "command": "insert_snippet", "args": {"contents": ""} },
-
-  { "keys": ["ctrl+super+up"], "command": "insert_snippet", "args": {"contents": ""} },
-  { "keys": ["ctrl+super+down"], "command": "insert_snippet", "args": {"contents": ""} },
-
-  { "keys": ["ctrl+alt+up"], "command": "insert_snippet", "args": {"contents": ""} },
-  { "keys": ["ctrl+alt+down"], "command": "insert_snippet", "args": {"contents": ""} },
-  { "keys": ["ctrl+alt+left"], "command": "insert_snippet", "args": {"contents": ""} },
-  { "keys": ["ctrl+alt+right"], "command": "insert_snippet", "args": {"contents": ""} },
-
-  { "keys": ["shift+ctrl+up"], "command": "insert_snippet", "args": {"contents": ""} },
-  { "keys": ["shift+ctrl+down"], "command": "insert_snippet", "args": {"contents": ""} },
-  { "keys": ["shift+ctrl+left"], "command": "insert_snippet", "args": {"contents": ""} },
-  { "keys": ["shift+ctrl+right"], "command": "insert_snippet", "args": {"contents": ""} },
-
 // Ruby Test
   // ⇧⌘R Run Single Test
-  { "keys": ["shift+super+r"], "command": "run_single_ruby_test",
+  { "keys": ["super+r"], "command": "run_single_ruby_test",
     "context": [ { "key": "selector", "operator": "equal",
                    "operand": "source.ruby, source.rspec, text.gherkin.feature"
                } ]
   },
 
   // ⌘R All Tests
-  { "keys": ["super+r"], "command": "run_all_ruby_test",
+  { "keys": ["shift+super+r"], "command": "run_all_ruby_test",
+      "context": [ { "key": "selector", "operator": "equal",
+         "operand": "source.ruby, source.rspec, text.gherkin.feature"
+                } ]
+  },
+
+  // ⌘R All Tests (RubyMine Style)
+  { "keys": ["shift+ctrl+f10"], "command": "run_all_ruby_test",
       "context": [ { "key": "selector", "operator": "equal",
          "operand": "source.ruby, source.rspec, text.gherkin.feature"
                 } ]
@@ -211,8 +297,8 @@
 
   },
 
-  // ⇧⌘L Run Last Test
-  { "keys": ["shift+super+l"], "command": "run_last_ruby_test",
+  // ⇧⌘E Run Last Test (RubyMine style)
+  { "keys": ["shift+f10"], "command": "run_last_ruby_test",
     "context": [ { "key": "selector", "operator": "equal",
        "operand": "source.ruby, source.rspec, text.gherkin.feature"
                } ]

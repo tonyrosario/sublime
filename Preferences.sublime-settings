@@ -43,7 +43,6 @@
 		"sass",
 		"sprockets",
 		"documentation",
-		"tmp",
 		"_build"
 	],
 	"font_face": "Monaco",
@@ -53,8 +52,9 @@
 	"hot_exit": false,
 	"ignored_packages":
 	[
-		"JavaScript",
-		"Vintage"
+		"Vintage",
+		"Zen Tabs",
+		"JavaScript"
 	],
 	"indent_guide_options":
 	[

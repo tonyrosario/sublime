@@ -1,11 +1,11 @@
 <snippet>
     <content><![CDATA[
-let(:$1) { create() }
+@import "$0";
 ]]></content>
     <!-- Optional: Tab trigger to activate the snippet -->
-    <tabTrigger>let</tabTrigger>
+    <tabTrigger>im</tabTrigger>
     <!-- Optional: Scope the tab trigger will be active in -->
-    <scope>source.ruby</scope>
+    <scope>source.scss</scope>
     <!-- Optional: Description to show in the menu -->
-    <description>Ruby let statement</description>
+    <description>SCSS import</description>
 </snippet>

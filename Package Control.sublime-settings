@@ -1,12 +1,33 @@
 {
 	"installed_packages":
 	[
+		"Better CoffeeScript",
+		"Elixir",
+		"Git",
+		"GitHubinator",
+		"Handlebars",
+		"HTML2Haml",
+		"Jade",
+		"JavaScriptNext - ES6 Syntax",
+		"JSX",
+		"Markdown Preview",
+		"PackageResourceViewer",
 		"RubyMotionBuilder",
+		"RubyTest",
+		"Rust",
 		"SFTP",
 		"SideBarEnhancements",
 		"SublimeCodeIntel",
 		"SublimeLinter",
 		"SublimeLinter-contrib-clang",
-		"SublimeREPL"
+		"SublimeLinter-contrib-scss-lint",
+		"SublimeLinter-jshint",
+		"SublimeLinter-lua",
+		"SublimeLinter-rubocop",
+		"SublimeLinter-shellcheck",
+		"SublimeLinter-xmllint",
+		"SublimeREPL",
+		"WordCount",
+		"Zen Tabs"
 	]
 }

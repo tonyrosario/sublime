@@ -1,4 +1,4 @@
 {
-	"last_test_run": "bundle exec rspec --no-color --format progress spec/features/survey_spec.rb:37",
-	"last_test_working_dir": "/Users/daytonn/Development/audatex-csi"
+	"last_test_run": "bundle exec rspec --no-color --format progress spec/lib/jskit_rails_spec.rb:9",
+	"last_test_working_dir": "/Users/daytonn/Development/jskit_rails"
 }
