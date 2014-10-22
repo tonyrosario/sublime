@@ -1,5 +1,6 @@
 [
 // Disable arrows
+  { "section": "Disable arrows" },
   { "keys": ["up"], "command": "insert_snippet", "args": {"contents": ""} },
   { "keys": ["down"], "command": "insert_snippet", "args": {"contents": ""} },
   { "keys": ["right"], "command": "insert_snippet", "args": {"contents": ""} },
@@ -116,7 +117,6 @@
 // Text commands
   // ⌃⌘P Swap line Up
   { "keys": ["ctrl+super+p"], "command": "swap_line_up" },
-
   // ⌃⌘N Swap line Down
   { "keys": ["ctrl+super+n"], "command": "swap_line_down" },
 
@@ -134,6 +134,12 @@
 
   // ⌃/ Toggle comment
   { "keys": ["ctrl+forward_slash"], "command": "toggle_comment", "args": { "block": false } },
+
+  // ⇧⌃C Toggle fold commens
+  { "keys": ["ctrl+shift+forward_slash"], "command": "toggle_fold_comments" },
+
+  // Join lines
+  { "keys": ["ctrl+j"], "command": "join_lines" },
 
 // Window Management
   // ⇧⌃⌥⌘W Close All windows
@@ -263,6 +269,8 @@
       ]
     }
   },
+
+  { "keys": ["ctrl+o"], "command": "markdown_preview_select", "args": { "target": "browser" } },
 
 // ⌃⌘L Sublime linter
   { "keys": ["ctrl+super+l"], "command": "sublimelinter_show_errors", "args": {"action": "lint", "show_popup": true} },

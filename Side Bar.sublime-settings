@@ -1,4 +1,5 @@
 {
   "close_affected_buffers_when_deleting_even_if_dirty": true,
   "hide_open_with_entries_when_there_are_no_applicable": true,
+  "confirm_before_deleting": false
 }
