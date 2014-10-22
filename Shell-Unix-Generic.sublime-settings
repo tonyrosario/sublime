@@ -1,0 +1,14 @@
+{
+	"extensions":
+	[
+		".aliases",
+		".baptize",
+		".bash_functions",
+		".colors",
+		".env",
+		".git_prompt",
+		".holywater",
+		"bats",
+		"pre-commit"
+	]
+}

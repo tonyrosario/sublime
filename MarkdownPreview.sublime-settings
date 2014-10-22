@@ -1,0 +1,4 @@
+/* Markdown Preview default settings */
+{
+    "parser": "github"
+}

@@ -1,0 +1,5 @@
+{
+    "auto_refresh_sidebar": true,
+    "completion_type": "nix",
+    "vcs_management": true
+}

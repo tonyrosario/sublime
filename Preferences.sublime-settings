@@ -10,59 +10,71 @@
 	"ensure_newline_at_eof_on_save": true,
 	"file_exclude_patterns":
 	[
+		"*.a",
+		"*.class",
+		"*.db",
+		"*.dll",
+		"*.dylib",
+		"*.exe",
+		"*.idb",
+		"*.lib",
+		"*.log",
+		"*.ncb",
+		"*.o",
+		"*.obj",
+		"*.pdb",
+		"*.psd",
 		"*.pyc",
 		"*.pyo",
-		"*.exe",
-		"*.dll",
-		"*.obj",
-		"*.o",
-		"*.a",
-		"*.lib",
-		"*.so",
-		"*.dylib",
-		"*.ncb",
 		"*.sdf",
+		"*.so",
+		"*.sublime-workspace",
 		"*.suo",
-		"*.pdb",
-		"*.idb",
-		".DS_Store",
-		"*.class",
-		"*.psd",
-		"*.db",
-		"*.log",
-		"*.sublime-workspace"
+		".tag*",
+		".DS_Store"
 	],
 	"folder_exclude_patterns":
 	[
-		".svn",
 		".git",
 		".hg",
+		".idea",
+		".svn",
+		"tmp",
+		"_build",
+		"bin",
 		"CVS",
-		"sprockets",
-		"sass"
+		"documentation",
+		"node_modules",
+		"sass",
+		"sprockets"
 	],
 	"font_face": "Monaco",
-	"font_size": 19,
+	"font_size": 18,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"hot_exit": false,
 	"ignored_packages":
 	[
 		"Vintage",
-		"JavaScript"
+		"JavaScript",
+		"Zen Tabs",
+		"SublimeCodeIntel"
 	],
 	"indent_guide_options":
 	[
-		"draw_normal"
+		"draw_active"
 	],
 	"log_commands": true,
-	"open_files_in_new_window": false,
+	"open_files_in_new_window": true,
 	"overlay_scroll_bars": "disabled",
 	"remember_open_files": false,
 	"save_on_focus_lost": true,
+	"show_full_path": false,
+	"show_panel_on_build": true,
 	"tab_size": 2,
 	"theme": "Neopolitan.sublime-theme",
 	"translate_tabs_to_spaces": true,
+	"tree_animation_enabled": false,
 	"trim_trailing_white_space_on_save": true,
 	"word_wrap": false
 }

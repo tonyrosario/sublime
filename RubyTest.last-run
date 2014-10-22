@@ -1,4 +1,4 @@
 {
-	"last_test_run": "bundle exec rspec --no-color --format p  --format UnicornFormatter spec/helpers/application_helper_spec.rb -l6",
-	"last_test_working_dir": "/Users/daytonn/Development/cooktabulous"
+	"last_test_run": "bundle exec rspec --no-color --format progress spec/models/form_attribute_spec.rb",
+	"last_test_working_dir": "/Users/daytonn/Development/rts"
 }

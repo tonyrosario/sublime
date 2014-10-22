@@ -1,0 +1,17 @@
+<snippet>
+    <content><![CDATA[
+require "rails_helper"
+
+describe $1 do
+  it "$2" do
+    $0
+  end
+end
+]]></content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>suite</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>source.ruby</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>Rspec suite</description>
+</snippet>
