@@ -1,4 +1,0 @@
-{
-	"last_test_run": "rspec --no-color --format progress spec/lib/loan_calculator_spec.rb:190",
-	"last_test_working_dir": "/Users/trosario/ruby/dpc"
-}

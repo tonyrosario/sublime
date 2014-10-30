@@ -153,18 +153,18 @@
   {
     "class": "tab_label",
     "parents": [{"class": "tab_control","attributes": ["hover"]}],
-    "fg": [211, 208, 200]
+    "fg": [211, 211, 211]
   },
   {
     "class": "tab_label",
     "parents": [{"class": "tab_control","attributes": ["selected"]}],
-    "fg": [232, 230, 223]
+    "fg": [211, 211, 211]
   },
   // FOLD BUTTONS
   {
     "class": "fold_button_control",
     "layer0.texture": "User/themes/Blackboard/folder-closed.png",
-    "layer0.tint": [160, 159, 147],
+    "layer0.tint": [160, 160, 160],
     "layer0.opacity": 0.5,
     "layer0.inner_margin": 0,
     "content_margin": [8,8]
@@ -297,7 +297,7 @@
   // EMPTY WINDOW BACKGROUND
   {
     "class": "sheet_container_control",
-    "layer0.tint": [39,31,25],
+    "layer0.tint": [30,30,30],
     "layer0.opacity": 1
   },
   // GRID LAYOUT
@@ -343,7 +343,7 @@
   // Tooltip content
   {
     "class": "tool_tip_label_control",
-    "color": [242, 240, 236]
+    "color": [242, 240, 240]
   },
   // STATUS BAR
   // Status bar container
@@ -426,7 +426,7 @@
   {
     "class": "sidebar_label",
     "parents": [{"class": "tree_row","attributes": ["hover"]}],
-    "color": [211, 208, 200]
+    "color": [211, 211, 211]
   },
   {
     "class": "sidebar_label",
@@ -438,7 +438,7 @@
   {
     "class": "sidebar_label",
     "parents": [{"class": "tree_row","attributes": ["selected"]}],
-    "color": [232, 230, 223]
+    "color": [230, 230, 230]
   },
   // SIDEBAR - OPEN FILE ICONS
   // Sidebar file close
@@ -466,7 +466,7 @@
     "attributes": ["dirty"],
     "layer0.texture": "User/themes/Blackboard/circle.png",
     "layer0.opacity": 1,
-    "layer0.tint": [254, 204, 102]
+    "layer0.tint": [254, 254, 254]
   },
   {
     "class": "close_button",
@@ -478,14 +478,14 @@
   {
     "class": "close_button",
     "attributes": ["hover"],
-    "layer0.tint": [242, 119, 122]
+    "layer0.tint": [242, 242, 242]
   },
   {
     "class": "close_button",
     "attributes": ["dirty", "hover"],
     "parents": [{"class": "tree_row","attributes": ["hover"]}],
     "layer0.texture": "User/themes/Blackboard/close.png",
-    "layer0.tint": [242, 119, 122]
+    "layer0.tint": [242, 242, 242]
   },
   // SIDEBAR - GENERAL FILE ICONS
   // Sidebar group closed
@@ -633,7 +633,7 @@
     "class": "quick_panel_row",
     "attributes": ["selected"],
     "layer0.texture": "",
-    "layer0.tint": [37, 59, 118]
+    "layer0.tint": [37, 37, 37]
   },
   {
     "class": "quick_panel_label",
@@ -665,13 +665,13 @@
     "class": "mini_quick_panel_row",
     "attributes": ["selected"],
     "layer0.texture": "",
-    "layer0.tint": [37, 59, 118]
+    "layer0.tint": [37, 37, 37]
   },
   // CODE COMPLETION DROPDOWN
   {
     "class": "popup_control",
     "content_margin": [0,0],
-    "layer0.tint": [68, 53, 42],
+    "layer0.tint": [68, 68, 68],
     "layer0.opacity": 1
   },
   {
@@ -688,7 +688,7 @@
   {
     "class": "table_row",
     "layer0.texture": "",
-    "layer0.tint": [37, 59, 118],
+    "layer0.tint": [37, 37, 37],
     "layer0.opacity": 0,
     "layer0.inner_margin": [3,1]
   },

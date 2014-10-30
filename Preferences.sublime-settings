@@ -55,10 +55,7 @@
 	"hot_exit": false,
 	"ignored_packages":
 	[
-		"Vintage",
-		"JavaScript",
-		"Zen Tabs",
-		"SublimeCodeIntel"
+		"Vintage"
 	],
 	"log_commands": true,
 	"open_files_in_new_window": true,

@@ -1,15 +1,11 @@
 <snippet>
     <content><![CDATA[
-require "rails_helper"
-
-describe $1, type: :$2 do
-  $0
-end
+it { should ${1:validate_presence_of :$2} }
 ]]></content>
     <!-- Optional: Tab trigger to activate the snippet -->
-    <tabTrigger>suite</tabTrigger>
+    <tabTrigger>its</tabTrigger>
     <!-- Optional: Scope the tab trigger will be active in -->
     <scope>source.ruby</scope>
     <!-- Optional: Description to show in the menu -->
-    <description>Rspec suite</description>
+    <description>should matcher</description>
 </snippet>

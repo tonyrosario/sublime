@@ -1,15 +1,11 @@
 <snippet>
     <content><![CDATA[
-require "rails_helper"
-
-describe $1, type: :$2 do
-  $0
-end
+ap $0, plain: true
 ]]></content>
     <!-- Optional: Tab trigger to activate the snippet -->
-    <tabTrigger>suite</tabTrigger>
+    <tabTrigger>ap</tabTrigger>
     <!-- Optional: Scope the tab trigger will be active in -->
     <scope>source.ruby</scope>
     <!-- Optional: Description to show in the menu -->
-    <description>Rspec suite</description>
+    <description>Awesome Print</description>
 </snippet>
