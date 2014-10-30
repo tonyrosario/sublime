@@ -16,15 +16,15 @@
   { "keys": ["shift+super+left"], "command": "insert_snippet", "args": {"contents": ""} },
   { "keys": ["shift+super+right"], "command": "insert_snippet", "args": {"contents": ""} },
 
-  { "keys": ["alt+up"], "command": "insert_snippet", "args": {"contents": ""} },
-  { "keys": ["alt+down"], "command": "insert_snippet", "args": {"contents": ""} },
   { "keys": ["alt+left"], "command": "insert_snippet", "args": {"contents": ""} },
   { "keys": ["alt+right"], "command": "insert_snippet", "args": {"contents": ""} },
+  { "keys": ["alt+up"], "command": "insert_snippet", "args": {"contents": ""} },
+  { "keys": ["alt+down"], "command": "insert_snippet", "args": {"contents": ""} },
 
-  { "keys": ["shift+alt+up"], "command": "insert_snippet", "args": {"contents": ""} },
-  { "keys": ["shift+alt+down"], "command": "insert_snippet", "args": {"contents": ""} },
   { "keys": ["shift+alt+left"], "command": "insert_snippet", "args": {"contents": ""} },
   { "keys": ["shift+alt+right"], "command": "insert_snippet", "args": {"contents": ""} },
+  { "keys": ["shift+alt+up"], "command": "insert_snippet", "args": {"contents": ""} },
+  { "keys": ["shift+alt+down"], "command": "insert_snippet", "args": {"contents": ""} },
 
   { "keys": ["ctrl+up"], "command": "insert_snippet", "args": {"contents": ""} },
   { "keys": ["ctrl+down"], "command": "insert_snippet", "args": {"contents": ""} },
@@ -45,21 +45,44 @@
   { "keys": ["shift+ctrl+right"], "command": "insert_snippet", "args": {"contents": ""} },
 
 // Enable arrow keys
-  { "keys": ["alt+right"], "command": "move", "args": { "by": "wordends", "forward": true } },
-  { "keys": ["alt+left"], "command": "move", "args": { "by": "words", "forward": false } },
   { "keys": ["up"], "command": "move", "args": { "by": "lines", "forward": false } },
   { "keys": ["down"], "command": "move", "args": { "by": "lines", "forward": true } },
   { "keys": ["right"], "command": "move", "args": { "by": "characters", "forward": true } },
   { "keys": ["left"], "command": "move", "args": { "by": "characters", "forward": false } },
+
+  { "keys": ["super+up"], "command": "move_to", "args": { "to": "bof" } },
+  { "keys": ["super+down"], "command": "move_to", "args": { "to": "eof" } },
   { "keys": ["super+right"], "command": "move_to", "args": { "to": "eol" } },
   { "keys": ["super+left"], "command": "move_to", "args": { "to": "bol" } },
-  { "keys": ["ctrl+super+up"], "command": "swap_line_up" },
-  { "keys": ["ctrl+super+down"], "command": "swap_line_down" },
-  { "keys": ["shift+tab"], "command": "unindent" },
-  { "keys": ["shift+ctrl+down"], "command": "select_lines", "args": { "by": "characters", "forward": true } },
-  { "keys": ["shift+ctrl+up"], "command": "select_lines", "args": { "by": "characters", "forward": false } },
+
+  { "keys": ["shift+super+up"], "command": "move_to", "args": { "to": "bof", "extend": true } },
+  { "keys": ["shift+super+down"], "command": "move_to", "args": { "to": "eof", "extend": true } },
   { "keys": ["shift+super+right"],  "command": "move_to", "args": { "to": "eol", "extend": true } },
   { "keys": ["shift+super+left"],  "command": "move_to", "args": { "to": "bol", "extend": true } },
+
+  { "keys": ["alt+right"], "command": "move", "args": { "by": "wordends", "forward": true } },
+  { "keys": ["alt+left"], "command": "move", "args": { "by": "words", "forward": false } },
+
+  { "keys": ["shift+alt+right"], "command": "move", "args": { "by": "wordends", "forward": true, "extend": true } },
+  { "keys": ["shift+alt+left"], "command": "move", "args": { "by": "words", "forward": false, "extend": true } },
+
+  { "keys": ["ctrl+up"], "command": "move_to", "args": { "to": "bof" } },
+  { "keys": ["ctrl+down"], "command": "move_to", "args": { "to": "eof" } },
+  { "keys": ["ctrl+right"], "command": "move_to", "args": { "to": "eol" } },
+  { "keys": ["ctrl+left"], "command": "move_to", "args": { "to": "bol" } },
+
+  { "keys": ["ctrl+super+up"], "command": "swap_line_up" },
+  { "keys": ["ctrl+super+down"], "command": "swap_line_down" },
+
+  { "keys": ["ctrl+alt+up"], "command": "move_to", "args": { "to": "bof" } },
+  { "keys": ["ctrl+alt+down"], "command": "move_to", "args": { "to": "eof" } },
+  { "keys": ["ctrl+alt+left"], "command": "move_to", "args": { "to": "eol" } },
+  { "keys": ["ctrl+alt+right"], "command": "move_to", "args": { "to": "bol" } },
+
+  { "keys": ["shift+ctrl+down"], "command": "select_lines", "args": { "by": "characters", "forward": true } },
+  { "keys": ["shift+ctrl+up"], "command": "select_lines", "args": { "by": "characters", "forward": false } },
+
+  { "keys": ["shift+tab"], "command": "unindent" },
 
 // Cursor Movement
   // ⌃F Forward by words

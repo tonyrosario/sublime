@@ -1,15 +1,11 @@
 <snippet>
     <content><![CDATA[
-require "rails_helper"
-
-describe $1, type: :$2 do
-  $0
-end
+@include omega;
 ]]></content>
     <!-- Optional: Tab trigger to activate the snippet -->
-    <tabTrigger>suite</tabTrigger>
+    <tabTrigger>om</tabTrigger>
     <!-- Optional: Scope the tab trigger will be active in -->
-    <scope>source.ruby</scope>
+    <scope>source.scss</scope>
     <!-- Optional: Description to show in the menu -->
-    <description>Rspec suite</description>
+    <description>omega neat</description>
 </snippet>
