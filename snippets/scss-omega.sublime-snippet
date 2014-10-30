@@ -1,13 +1,11 @@
 <snippet>
     <content><![CDATA[
-describe ${1:"${2:#}"} do
-  $0
-end
+@include omega;
 ]]></content>
     <!-- Optional: Tab trigger to activate the snippet -->
-    <tabTrigger>describe</tabTrigger>
+    <tabTrigger>om</tabTrigger>
     <!-- Optional: Scope the tab trigger will be active in -->
-    <scope>source.ruby</scope>
+    <scope>source.scss</scope>
     <!-- Optional: Description to show in the menu -->
-    <description>Rspec describe</description>
+    <description>Neat omega</description>
 </snippet>

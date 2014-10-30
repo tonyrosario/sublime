@@ -1,4 +1,4 @@
 {
-	"last_test_run": "bundle exec rspec --no-color --format progress spec/models/form_attribute_spec.rb",
-	"last_test_working_dir": "/Users/daytonn/Development/rts"
+	"last_test_run": "rspec --no-color --format progress spec/lib/loan_calculator_spec.rb:190",
+	"last_test_working_dir": "/Users/trosario/ruby/dpc"
 }

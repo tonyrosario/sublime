@@ -60,10 +60,6 @@
 		"Zen Tabs",
 		"SublimeCodeIntel"
 	],
-	"indent_guide_options":
-	[
-		"draw_active"
-	],
 	"log_commands": true,
 	"open_files_in_new_window": true,
 	"overlay_scroll_bars": "disabled",

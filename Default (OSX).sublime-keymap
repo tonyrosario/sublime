@@ -208,6 +208,9 @@
   // ⌥⌘CColor picker
   { "keys": ["alt+super+c"], "command": "color_pick" },
 
+  // Paste and indent by default
+  { "keys": ["super+v"], "command": "paste_and_indent" },
+
   // Match Backtick Quotes
   { "keys": ["`"], "command": "insert_snippet", "args": {"name": "Packages/User/snippets/All-backticks.sublime-snippet"} },
 
